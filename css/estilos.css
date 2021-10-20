@@ -1,0 +1,94 @@
+@font-face {
+    font-family: cursiva;
+    src: url(../fuentes/Athena-Signature.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: brHendrix;
+    src: url(../fuentes/BRHendrix-Light.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: brHendrix;
+    src: url(../fuentes/BRHendrix-Regular.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: brHendrix;
+    src: url(../fuentes/BRHendrix-Bold.ttf);
+    font-weight: 300;
+}
+
+header{
+    background-image: url(../imagenes/tramaPuntos_Desk.png);
+    background-repeat: no-repeat;
+    background-position-x: 35%;
+    background-position-y: 64%;
+    background-size: 32%;
+    margin: 4%;
+    padding: 0% 0% 15% 0%;
+}
+
+
+.foto{
+    background-image: url(../imagenes/tramaLineas.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 25%;
+    height: 25%;
+    margin-left: 10%;
+}
+
+.presentacion{
+    margin: 9% 0% 0%;
+    padding-left: 8%;
+}
+
+main{
+    margin: 10%;
+}
+
+img{
+    width: 90%;
+}
+
+#home{
+    width: 30%;
+    height: 30%;
+    margin-left: 2%;
+}
+
+.nombre{
+    background-image: url(../imagenes/lineaColor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 62%;
+    width: 100%;
+    font-family: cursiva;
+    font-weight: 100;
+}
+
+@media (max-width: 576px){
+    .sobreMi{
+        padding: 5%;
+    }
+}
+
+.boutMe, .saludo{
+    font-family: brHendrix;
+    font-weight: 300;
+}
+
+.rubro{
+    font-family: brHendrix;
+    font-weight: 300;
+    margin-left: 63%;
+}
+
+p{
+    font-family: brHendrix;
+    font-weight: 100;
+}
